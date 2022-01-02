@@ -434,7 +434,12 @@
                 sticky_relocate();
             });
         </script>
-
+        <script>
+            var host = "ruubik.rw";
+            if (window.location.host == host && window.location.protocol != "https:") {
+                window.location.protocol = "https:"
+            }
+        </script>
 
 
     </body>
