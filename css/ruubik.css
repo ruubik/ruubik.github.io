@@ -1,0 +1,247 @@
+/* LANDING PAGE */
+
+/* NAVBAR */
+#sticky.stick{
+    display: block;
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    min-height: auto;
+    background: #ffffff !important;
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+}
+
+.navbar{
+    min-height: 96px;
+    background: #1B1725 !important;
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+}
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
+.nav-item{
+    padding-left: 16px; 
+}
+
+.nav-item .nav-link{
+    font-size: 14px;
+    color: #eee8e8;
+    text-transform: uppercase;
+}
+
+.nav-item .active{
+    color: #FFFFFF !important;
+    font-weight: 900;
+}
+.nav-item .nav-link:hover{
+    font-weight: 900;
+}
+.nav_button{
+    color: #fff;
+    padding: 12px;
+    vertical-align: middle;
+    border-radius: 4px;
+    min-width: 150px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    /* transition: ease-out 0.4s; */
+    
+}
+.navbar-default{
+    background: #ffffff;
+    margin: 0!important;
+}
+.navbar-default .navbar-brand{
+    color: #ffffff;
+    font-size: 30px;
+    height: 70px;
+}
+.navbar-default .nav li a {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Gramatika';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus,
+.navbar-default .nav li a.current
+{
+    color: #ffffff;
+}
+
+.currentActive{
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+.navbar-default .navbar-toggle{
+    border: none;
+    padding-top: 20px;
+}
+.navbar-default .navbar-toggle .icon-bar{
+   
+    border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus { background-color: transparent }
+
+
+
+
+
+
+
+
+/* SECTION 1 */
+.landing_section_row{
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 96px); 
+}
+
+/* SECTION 2 */
+.serv_container{
+    padding: 0px 42px 0px 16px;
+    margin-bottom: 32px;
+}
+
+/* PARTNERS LOGO */
+.section_partners{
+    padding: 64px 16px;
+}
+
+/* TEAM */
+.about_image1 {
+    background: linear-gradient(16.06deg, #0F0A1D -1.46%, rgba(92, 59, 100, 0.15) 64.23%), url(../images/team/Nuru.png);
+    border-radius: 4px;
+    height: 400px;
+    background-size: cover;
+    object-fit: cover;
+}
+.about_image2 {
+    background: linear-gradient(16.06deg, #0F0A1D -1.46%, rgba(92, 59, 100, 0.15) 64.23%), url(../images/team/Sam.png);
+    border-radius: 4px;
+    height: 400px;
+    background-size: cover;
+    object-fit: cover;
+}
+.about_image3 {
+    background: linear-gradient(16.06deg, #0F0A1D -1.46%, rgba(92, 59, 100, 0.15) 64.23%), url(../images/team/Doddy.png);
+    border-radius: 4px;
+    height: 400px;
+    background-size: cover;
+    object-fit: cover;
+}
+.about_image4 {
+    background: linear-gradient(16.06deg, #0F0A1D -1.46%, rgba(92, 59, 100, 0.15) 64.23%), url(../images/team/Karen.png);
+    border-radius: 4px;
+    height: 400px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.about_image5 {
+    background: linear-gradient(16.06deg, #0F0A1D -1.46%, rgba(92, 59, 100, 0.15) 64.23%), url(../images/team/Dusabe.png);
+    border-radius: 4px;
+    height: 400px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.about_image6 {
+    background: linear-gradient(16.06deg, #0F0A1D -1.46%, rgba(92, 59, 100, 0.15) 64.23%), url(../images/team/Guevara.png);
+    border-radius: 4px;
+    height: 400px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.about_image7 {
+    background: linear-gradient(16.06deg, #0F0A1D -1.46%, rgba(92, 59, 100, 0.15) 64.23%), url(../images/team/MMD.png);
+    border-radius: 4px;
+    height: 400px;
+    background-size: cover;
+    object-fit: cover;
+}
+.about_image8 {
+    background: linear-gradient(16.06deg, #0F0A1D -1.46%, rgba(92, 59, 100, 0.15) 64.23%), url(../images/team/festus.png);
+    border-radius: 4px;
+    height: 400px;
+    background-size: cover;
+    object-fit: cover;
+}
+.name_position {
+    color: #ffffff;
+    padding: 64px 64px 32px 64px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.icon_size{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* PROJECTS */
+.project_container {
+    border-radius: 4px;
+}
+
+.project_caption{
+    padding: 0 0 0 16px;
+}
+.project_img{
+    border-radius: 4px;
+}
+.text_quote{
+    font-style: italic;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .navbar-toggler:focus{
+        box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0) inset, 0 0 0px rgba(126, 239, 104, 0.0) !important;
+        outline: 0 none !important;
+    }
+    .navbar-toggler:active{
+        box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0) inset, 0 0 0px rgba(126, 239, 104, 0.0) !important;
+        outline: 0 none !important;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+    .collapse{
+        height: 100vh;
+        text-align: center;
+        padding: 32px;
+    }
+    .collapse .nav-item .nav-link{
+        font-size: 32px;
+        padding: 16px;
+    }
+    .nav-item{
+        padding-left: 32px; 
+    }
+    
+}

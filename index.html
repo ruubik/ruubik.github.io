@@ -1,15 +1,384 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
+  <head>
+  	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+  	<title>Ruubik</title>
+    <link rel="shortcut icon" href="images/icon.svg">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="css/bootstrap-reboot.min.css" rel="stylesheet">
+    <link href="css/ruubik.css" rel="stylesheet">
+    <link href="css/ruubik_ui.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href="css/sweetalert.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/00ec459f07.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    
+  </head>
 
     <body>
-        <h1>LANDING PAGE</h1>
-    </body>
+        <div id="sticky-anchor"></div>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-light main_navbar sticky-top">
+            <div class="container-fluid ruubik_box">
+            <a class="navbar-brand" href="#"><img src="images/logo.svg" height="30px"class="d-inline-block align-top" alt="ruubik Logo"></a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: #ffffff;">
+                <span class="material-icons">notes</span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#services">SERVICES</a>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">PROJECTS</a>
+                    </li>
+                   
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="btn nav_button" href="#footer">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
 
-</html>
+      
+        <!-- END NAVBAR -->
+
+
+        <!-- LANDING SECTION -->
+        <div class="container-fluid dark_gradient_bg ruubik_box">
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12 landing_section_row" >
+                        <div class="col align-self-center wow fadeIn  animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+                            <h1 class="white_txt mabo64 ">Carving the world's sculpture with great code. </h1>
+                            <a href="#" class="btn blue_normal_btn">Work with us</a>
+                          </div>
+                    </div>
+                    <div class="hide_in_phn col-6 pad0 wow fadeIn animated" style=" background-image: url('images/bg_img.svg'); background-size: cover;
+                    background-position: center;"> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END LANDING SECTION -->
+
+
+        <!-- SECTION SERVICES -->
+        <div class="container-fluid ruubik_box" id="services" style="background-image: url('images/blur_bg.png');background-size: cover;background-attachment: fixed;">
+            <div class="container-fluid align-self-center normal_stn">
+              <div class="row mabo64">
+                <div class="col-12 col-md-10 col-lg-8 col-sm-12 wow fadeIn  animated" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <h2 class="black_txt text-capitalize">We empower startups, large enterprises & SME’s with essential digital solutions which assists business growth</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12 serv_container wow fadeIn  animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <img src="images/services.svg" width="32px" class="mabo16">
+                    <h3 class="black_txt mabo16 text-capitalize">Requirements Gathering & Discovery</h3>
+                    <p class="text_quote">Failing to plan, is planning to fail</p>
+                    <p class="grey_txt">An amazing product requires a great customer-base, thorough research & planning, Clear description layout.
+                      We will help cross out & breakdown all these boxes to make your product as clear and understandable as possible
+                      . </p>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12 serv_container wow fadeIn  animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    <img src="images/services.svg" width="32px" class="mabo16">
+                    <h3 class="black_txt mabo16 text-capitalize">UI / UX Design</h3>
+                    <p class="text_quote">Good design is good business & Bad design is, well…</p>
+                    <p class="grey_txt">We help you design beautiful and intuitive UIs for your products, providing the best user experience for end-users. </p>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12 serv_container wow fadeIn  animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                    <img src="images/services.svg" width="32px" class="mabo16">
+                    <h3 class="black_txt mabo16 text-capitalize">Web, Mobile & Desktop  App Development</h3>
+                    <p class="text_quote">And God said, let there be "code" :)</p>
+                    <p class="grey_txt">We provide software development services that help you address evolving market challenges by defining, designing and building software and mobile applications tailored to meet your specific business requirements. </p> 
+                </div>
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12 serv_container wow fadeIn  animated" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <img src="images/services.svg" width="32px" class="mabo16">
+                    <h3 class="black_txt mabo16 text-capitalize">IT Consulting  
+                    </h3>
+                    <!-- <p class="text_quote">We need a quote here for consistency :)</p> -->
+                    <p class="grey_txt">We provide a smooth worldwide approach, a strong focus on business results, and a culture of entrepreneurship to our clients. We help clients understand their needs and the best approach to meeting these needs. </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        <!-- END SECTION SERVICES -->
+
+
+        
+        <!-- AWARDS & RECOGNITIONS -->
+        <!-- <div class="container-fluid ruubik_box light_bg">
+            <div class="container-fluid section_partners">
+              <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 text-center mabo16 wow fadeIn animated"data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                    <a href="#" ><img src="images/award.svg" alt="Image" width="100%"></a> 
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 text-center mabo16 wow fadeIn animated"data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                    <a href="#" ><img src="images/award.svg" alt="Image" width="100%" ></a> 
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 text-center mabo16 wow fadeIn animated"data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                    <a href="#" ><img src="images/award.svg" alt="Image" width="100%"></a> 
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 text-center mabo16 wow fadeIn animated"data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
+                    <a href="#" ><img src="images/award.svg" alt="Image" width="100%"></a> 
+                </div>
+                
+              </div>
+            </div>
+        </div> -->
+        <!-- END AWARDS & RECOGNITIONS -->
+
+
+
+        <!-- SECTION ABOUT -->
+        <div class="container-fluid ruubik_box" id="about" style="background-image: url('images/blur_bg2.png');background-size: cover;background-attachment: fixed;">
+            <div class="container-fluid align-self-center normal_stn">
+              <div class="row mabo64">
+                <div class="col-12 col-md-10 col-lg-6 col-sm-12 wow fadeIn  animated" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <h2 class="black_txt text-capitalize mabo32">Our team promises you sweet effort more that sweet words.</h2>
+                    <p class="grey_txt">Ruubik’s vision is to solve real-world continental challenges, through code, one Rubik piece at a time!. </p>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col-12 col-lg-4 col-md-6 col-sm-12 col-xl-3 mabo32 wow fadeIn  animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <div class="about_image1">
+                      <div class="name_position">
+                        <h3 class="white mabo0">Abdou Nuru Niyigena </h3>
+                        <!-- <p class="text_content white">Pilot</p>
+                        <a class="icon_size" href="#" target="_blank" >
+                          <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        </a> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-4 col-md-6 col-sm-12 col-xl-3 mabo32 wow fadeIn  animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    <div class="about_image2">
+                      <div class="name_position">
+                        <h3 class="white mabo0">Samuel Rutakayile </h3>
+                        <!-- <p class="text_content white">Pilot Software developer Doctor</p>
+                        <a class="icon_size" href="Linkedin: https://www.linkedin.com/in/abdou-nuru-niyigena/
+                        " target="_blank" > -->
+                          <!-- <i class="fab fa-linkedin-in" aria-hidden="true"></i> -->
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-4 col-md-6 col-sm-12 col-xl-3 mabo32 wow fadeIn  animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                    <div class="about_image3">
+                      <div class="name_position">
+                        <h3 class="white mabo0">Doddy K. Kwizera </h3>
+                        <!-- <p class="text_content white">Pilot A0</p>
+                        <a class="icon_size" href="#" target="_blank" >
+                          <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        </a> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-4 col-md-6 col-sm-12 col-xl-3 mabo32 wow fadeIn  animated" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <div class="about_image4">
+                      <div class="name_position">
+                        <h3 class="white mabo0">Karen Giramata </h3>
+                        <!-- <p class="text_content white">Pilot Code Maestro</p> -->
+                        <!-- <a class="icon_size" href="#" target="_blank" >
+                          <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        </a> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-4 col-md-6 col-sm-12 col-xl-3 mabo32 wow fadeIn  animated" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                  <div class="about_image5">
+                    <div class="name_position">
+                      <h3 class="white mabo0">Dusabe Butare </h3>
+                      <!-- <p class="text_content white">Pilot Air Butare</p> -->
+                      <!-- <a class="icon_size" href="#" target="_blank" >
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                      </a> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12 col-xl-3 mabo32 wow fadeIn  animated" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
+                  <div class="about_image6">
+                    <div class="name_position">
+                      <h3 class="white mabo0">Manzi Guevara </h3>
+                      <!-- <p class="text_content white">Pilot Air Zaire</p> -->
+                      <!-- <a class="icon_size" href="#" target="_blank" >
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                      </a> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12 col-xl-3 mabo32 wow fadeIn  animated" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
+                  <div class="about_image7">
+                    <div class="name_position">
+                      <h3 class="white mabo0">Moise Manzi </h3>
+                      <!-- <p class="text_content white">Pilot Cyakoze</p> -->
+                      <!-- <a class="icon_size" href="#" target="_blank" >
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                      </a> -->
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="col-12 col-lg-4 col-md-6 col-sm-12 col-xl-3 mabo32 wow fadeIn  animated" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: fadeInUp;">
+                  <div class="about_image8">
+                    <div class="name_position">
+                      <h3 class="white mabo0">Festus Niyonagize </h3> -->
+                      <!-- <p class="text_content white">Pilot Frontline Commander</p> -->
+                      <!-- <a class="icon_size" href="#" target="_blank" >
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                      </a> -->
+                    <!-- </div>
+                  </div>
+                </div> -->
+              </div>
+                
+            </div>
+          </div>
+        <!-- END SECTION ABOUT -->
+
+
+        <!-- SECTION Projects -->
+        <div class="container-fluid ruubik_box" id="projects" style="background-image: url('images/blur_bg.png');background-size: cover;background-attachment: fixed;">
+            <div class="container-fluid align-self-center normal_stn">
+              <div class="row mabo64">
+                <div class="col-12 col-md-10 col-lg-8 col-sm-12 wow fadeIn  animated" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                    <h2 class="black_txt text-capitalize mabo32">Mighty Sword of disruptive projects</h2>
+                    <p class="grey_txt">Great innovation starts here, Our team works together to make the advanced seem simple. </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-lg-4 col-md-4 col-sm-12 project_container mabo32 wow fadeIn  animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                  <img src="images/watermita.png" width="100%" class="project_img mabo32">
+                  <div class="col-12 project_caption">
+                      <h3 class="black_txt">Field Workforce Management App</h3>
+                      <p class="grey_txt mabo16"><span class="black_txt  mr-3">CLIENT: </span>Watermita</p>
+                      <!-- <a href="#" target="_blank" class="">Visit site</a> -->
+                  </div>
+                </div>
+
+                <div class="col-12 col-lg-4 col-md-4 col-sm-12 project_container mabo32 wow fadeIn  animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                  <img src="images/Churchhoot.png" width="100%" class="project_img mabo32">
+                  <div class="col-12 project_caption">
+                      <h3 class="black_txt">Attendance Tracking and Graphing for Churches
+                      </h3>
+                      <p class="grey_txt mabo16"><span class="black_txt  mr-3">CLIENT: </span>ChurchHoot</p>
+                      <!-- <a href="#" target="_blank" class="">Visit site</a> -->
+                  </div>
+                </div>
+
+                <div class="col-12 col-lg-4 col-md-4 col-sm-12 project_container mabo32 wow fadeIn  animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                  <img src="images/wove.png" width="100%" class="project_img mabo32">
+                  <div class="col-12 project_caption">
+                      <h3 class="black_txt">Financial Management made simple
+                      </h3>
+                      <p class="grey_txt mabo16"><span class="black_txt  mr-3">CLIENT: </span>Wove</p>
+                      <!-- <a href="#" target="_blank" class="">Visit site</a> -->
+                  </div>
+                </div>  
+              
+            </div>
+          </div>
+          </div>
+        <!-- END SECTION Projects -->
+
+
+
+        <!-- FOOTER SECTION -->
+          <div class="container-fluid dark_gradient_bg ruubik_box" id="footer">
+            <div class="container-fluid align-self-center normal_stn">
+              <div class="row mabo64">
+                  <div class="col-12 col-md-5 col-lg-5 col-sm-12 wow fadeIn  animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+                      <img src="images/ruubik_logo_icon.svg" height="48px;" class="mabo96">
+                      <h2 class="white_txt mabo96">Time is money. We don’t like
+                        wasting either. Neither do you. </h2>
+                      <a href="#" class="btn blue_normal_btn mabo32">Leave us a message</a>
+                  </div>
+                  <div class="col-1 hide_in_phn"></div>
+                  <div class="row align-self-center pad32 wow fadeIn  animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                    <div class="col-12 col-lg-4 col-md-4 col-sm-4  pad32">
+                      <h3 class="white_txt mabo32">Contact information</h3>
+                      <a href="mailto:"><p class="grey_txt ">team@ruubik.rw</p></a>
+                      <p class="grey_txt ">250 788 470370</p>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-4 col-sm-4  pad32">
+                      <h3 class="white_txt fowe600 mabo32">Address</h3>
+                      <p class="grey_txt mabo16">KK 13 Ave </p>
+                      <p class="grey_txt">Rwanda</p>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-4 col-sm-4  pad32 icon_size">
+                      <h3 class="white_txt  ">Social media</h3>
+                      <a href="https://www.linkedin.com/company/ruubik-ltd/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                      <!-- <a href="#"><i class="fab fa-twitter white_txt mabo32 mr-2 "></i></a>
+                      <a href="#"><i class="fab fa-facebook-f white_txt mabo32 mr-2 ml-3"></i></a>
+                      <a href="#"><i class="fab fa-instagram white_txt mabo32 mr-2 ml-3"></i></a> -->
+                    </div>
+                </div>
+              </div>
+              
+
+            </div>
+          </div>
+         
+      <!-- END FOOTER SECTION -->
+
+
+       
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+      <script>
+        new WOW().init();
+      </script>
+    
+      <script>
+        $(document).ready(function () {
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+
+        });
+      </script>
+
+      <script>
+        function sticky_relocate() {
+          var window_top = $(window).scrollTop();
+          var div_top = $('#sticky-anchor').offset().top;
+          if (window_top > div_top) {
+            $('#sticky').addClass('stick');
+            $('#sticky-anchor').height($('#sticky').outerHeight());
+          } else {
+            $('#sticky').removeClass('stick');
+            $('#sticky-anchor').height(0);
+          }
+        }
+
+        $(function() {
+          $(window).scroll(sticky_relocate);
+          sticky_relocate();
+        });
+      </script>
+     
+
+
+    </body>
+  </html>

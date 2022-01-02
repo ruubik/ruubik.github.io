@@ -1,0 +1,261 @@
+body{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+	font-size: 12px;
+    font-weight: 200;
+    width: 100%;
+    overflow-x: hidden;
+    color: #8687A1;
+    letter-spacing: 1px;
+}
+a:hover{
+    color: unset;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+/* SECTIONS */
+
+.small_stn{
+    padding: 64px 16px;
+    height: calc(100vh - 96px);
+}
+.normal_stn{
+    padding: 200px 16px;
+}
+.ruubik_box{
+    padding: 0 112px;
+}
+
+/* BACKGROUND COLORS */
+.white_bg{
+    background-color: #ffffff;
+}
+.light_bg{
+    background-color: #f4f5f8;
+}
+.dark_gradient_bg{
+    background: radial-gradient(53.65% 53.65% at 50% 46.35%, #261A34 0%, #1B1725 98.44%);   
+}
+
+
+
+/* TYPOGRAPHY */
+h1{
+    font-size: 72px;
+    line-height: calc(72px * 1.5);
+    font-weight: 500;
+}
+
+h2{
+    font-size: 48px;
+    line-height: calc(48px * 1.5); 
+    font-weight: 400;
+}
+
+h3{
+    font-size: 24px;
+    line-height: calc(24px * 1.5); 
+    font-weight: 400;
+}
+
+p{
+    font-size: 16px;
+    line-height: calc(16px * 1.6); 
+    font-weight: 300;
+}
+.bold{
+    font-weight: 500;
+}
+
+/* COLORS */
+
+.white_txt{
+    color: #FFFAFA;
+}
+.black_txt{
+    color: #1B1725;
+}
+.grey_txt{
+    color: #73748b;
+}
+
+
+
+/* DIMENSIONS */
+
+.pad0{
+    padding: 0;
+}
+.pad16{
+    padding: 16px;
+}
+.pad32{
+    padding: 32px;
+}
+.pad64{
+    padding: 64px;
+}
+.pad6432{
+    padding: 64px 32px;
+}
+
+.mabo0{
+    margin-bottom: 0;
+}
+.mabo16{
+    margin-bottom: 16px;
+}
+.mabo32{
+    margin-bottom: 32px;
+}
+.mabo64{
+    margin-bottom: 64px;
+}
+.mabo96{
+    margin-bottom: 96px;
+}
+
+.mato0{
+    margin-top: 0;
+}
+.mato16{
+    margin-top: 16px;
+}
+.mato32{
+    margin-top: 32px;
+}
+.mato64{
+    margin-top: 64px;
+}
+.mato96{
+    margin-top: 96px;
+}
+
+
+/* BUTTONS */
+
+.btn:focus{
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0) inset, 0 0 0px rgba(126, 239, 104, 0.0) !important;
+    outline: 0 none !important;
+}
+.btn:active{
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0) inset, 0 0 0px rgba(126, 239, 104, 0.0) !important;
+    outline: 0 none !important;
+}
+
+.blue_normal_btn{
+    padding: 16px 48px 16px 48px;
+    border-radius: 4px;
+    min-width: 200px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #3681F8;
+    /* transition: ease-out 0.4s; */
+    vertical-align: middle;
+}
+
+
+
+@media (max-width: 1310px) {
+    h1{
+        font-size: 56px;
+        line-height: calc(56px * 1.5);
+        font-weight: bold;
+    }
+    h2{
+        font-size: 32px;
+        line-height: calc(32px * 1.5);
+        font-weight: 400;
+    }
+    h3{
+        font-size: 20px;
+        line-height: calc(20px * 1.5);
+        font-weight: 400;
+
+    }
+	.ruubik_box{
+        padding: 0 32px;
+    }
+    .pad32{
+        padding: 16px;
+    }
+    .pad64{
+        padding: 32px;
+    }
+    .mabo64{
+        margin-bottom: 48px;
+    }
+    .mato64{
+        margin-top: 48px;
+    }
+    .mato96{
+        margin-top: 56px;
+    }
+    .normal_stn{
+        padding: 100px 16px;
+    }
+    .landing_section_row{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1310px) {
+
+    .hide_in_phn{
+        display: none;
+    }
+}
+
+
+@media (max-width: 767px) {
+    h1{
+        font-size: 48px;
+        line-height: calc(48px * 1.5);
+        font-weight: bold;
+    }
+    h2{
+        font-size: 32px;
+        line-height: calc(32px * 1.5);
+        font-weight: 400;
+    }
+    h3{
+        font-size: 20px;
+        line-height: calc(20px * 1.5);
+        font-weight: 400;
+
+    }
+	.ruubik_box{
+        padding: 0 32px;
+    }
+    .pad32{
+        padding: 16px;
+    }
+    .pad64{
+        padding: 32px;
+    }
+    .mabo64{
+        margin-bottom: 48px;
+    }
+    .mato64{
+        margin-top: 32px;
+    }
+    .mabo96{
+        margin-bottom: 48px;
+    }
+    .mato96{
+        margin-top: 48px;
+    }
+    .normal_stn{
+        padding: 100px 16px;
+    }
+    .landing_section_row{
+        display: flex;
+        justify-content: center;
+    }
+}
