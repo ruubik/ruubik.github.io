@@ -8,7 +8,7 @@ body{
     letter-spacing: 1px;
 }
 a:hover{
-    color: unset;
+    color: #cbd4f0;
 }
 a {
     color: #ffffff;
@@ -29,7 +29,9 @@ a {
 .ruubik_box{
     padding: 0 112px;
 }
-
+.full_screen{
+    height: calc(100vh - 96px);
+}
 /* BACKGROUND COLORS */
 .white_bg{
     background-color: #ffffff;
@@ -104,7 +106,10 @@ p{
 }
 
 .mabo0{
-    margin-bottom: 0;
+    margin-bottom: 0px;
+}
+.mabo8{
+    margin-bottom: 8px;
 }
 .mabo16{
     margin-bottom: 16px;
@@ -138,15 +143,6 @@ p{
 
 /* BUTTONS */
 
-.btn:focus{
-    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0) inset, 0 0 0px rgba(126, 239, 104, 0.0) !important;
-    outline: 0 none !important;
-}
-.btn:active{
-    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0) inset, 0 0 0px rgba(126, 239, 104, 0.0) !important;
-    outline: 0 none !important;
-}
-
 .blue_normal_btn{
     padding: 16px 48px 16px 48px;
     border-radius: 4px;
@@ -155,21 +151,47 @@ p{
     font-weight: 500;
     color: #ffffff;
     background-color: #3681F8;
-    /* transition: ease-out 0.4s; */
+    transition: ease-out 0.4s;
+    vertical-align: middle;
+}
+
+.white_normal_btn{
+    padding: 16px 48px 16px 48px;
+    border-radius: 4px;
+    min-width: 200px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1B1725;
+    background-color: #ffffff;
+    transition: ease-out 0.4s;
     vertical-align: middle;
 }
 
 
+.md_link_button {
+    background: transparent;
+    color: #1B1725;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding: 8px 0px;
+    height: 32px;
+    -webkit-transition: 0.2s ease-out;
+    -moz-transition: 0.2s ease-out;
+    -o-transition: 0.2s ease-out;
+    transition: 0.2s ease-out;
+}
 
-@media (max-width: 1310px) {
+@media (max-width: 1530px) {
     h1{
-        font-size: 56px;
-        line-height: calc(56px * 1.5);
+        font-size: 54px;
+        line-height: calc(54px * 1.5);
         font-weight: bold;
     }
     h2{
-        font-size: 32px;
-        line-height: calc(32px * 1.5);
+        font-size: 36px;
+        line-height: calc(36px * 1.5);
         font-weight: 400;
     }
     h3{
@@ -179,10 +201,7 @@ p{
 
     }
 	.ruubik_box{
-        padding: 0 32px;
-    }
-    .pad32{
-        padding: 16px;
+        padding: 0 64px;
     }
     .pad64{
         padding: 32px;
@@ -205,12 +224,14 @@ p{
     }
 }
 
-@media (max-width: 1310px) {
-
-    .hide_in_phn{
-        display: none;
+@media (max-width: 900px) {
+    h1{
+        font-size: 42px;
+        line-height: calc(48px * 1.5);
+        font-weight: bold;
     }
 }
+
 
 
 @media (max-width: 767px) {
